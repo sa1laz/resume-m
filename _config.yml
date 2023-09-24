@@ -11,16 +11,16 @@ sass:
 # Resume settings
 resume_avatar:                  "true"
 resume_name:                    "Конева Алевтина Леонидовна"
-resume_title:                   "Воспитатель ДС Аистенок"
+resume_title:                   "Воспитатель ДС №152 Аистенок"
 
 # used for the contact button in _layouts/resume.html
 resume_contact_email:           "me@alevtinakoneva.ru"
 
 # the next two items are used for schema itemprops in _layouts/resume.html
 resume_contact_telephone:       "+79193626067"
-resume_contact_address:         "Черепанова 30, Екатернибург"
+resume_contact_address:         "г. Екатеринбург, ул. Черепанова, 28а"
 
-resume_header_contact_info:     "Черепанова 30, Екатернибург • +79193626067 • me@alevtinakoneva.ru"
+resume_header_contact_info:     "г. Екатеринбург, ул. Черепанова, 28а • +79193626067 • me@alevtinakoneva.ru"
 display_header_contact_info:    "true"
 
 resume_header_intro: "<p>Здесь небольшая вводная по работе, сколько лет, ключевые достижения</p>"
