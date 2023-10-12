@@ -17,10 +17,10 @@ resume_title:                   "Воспитатель ДС №152 Аистен
 resume_contact_email:           "me@alevtinakoneva.ru"
 
 # the next two items are used for schema itemprops in _layouts/resume.html
-resume_contact_telephone:       "+79193626067"
-resume_contact_address:         "г. Екатеринбург, ул. Черепанова, 28а"
+resume_contact_telephone:       "+7919362xxxx"
+resume_contact_address:         "г. Екатеринбург, ул. Черепанова, xxx"
 
-resume_header_contact_info:     "г. Екатеринбург, ул. Черепанова, 28а • +79193626067 • me@alevtinakoneva.ru"
+resume_header_contact_info:     "г. Екатеринбург, ул. Черепанова, xxx • +7919362xxxx • me@alevtinakoneva.ru"
 display_header_contact_info:    "true"
 
 resume_header_intro: "<p>Здесь небольшая вводная по работе, сколько лет, ключевые достижения</p>"
