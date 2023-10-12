@@ -1,6 +1,6 @@
 # Site settings
 title: "Воспитатель Конева Алевтина"
-description: "Персональный сайт воспитателя Коневой Алевтины Леонидовны"
+description: "Персональный сайт воспитателя Коневой Алевтины"
 
 # Build settings
 markdown: kramdown
@@ -10,7 +10,7 @@ sass:
 
 # Resume settings
 resume_avatar:                  "true"
-resume_name:                    "Конева Алевтина Леонидовна"
+resume_name:                    "Конева Алевтина"
 resume_title:                   "Воспитатель ДС №152 Аистенок"
 
 # used for the contact button in _layouts/resume.html
