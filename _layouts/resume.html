@@ -53,7 +53,7 @@
       <section class="content-section">
 
         <header class="section-header">
-          <h2>Опыт</h2>
+          <h2>Результаты мониторинга развития детей</h2>
         </header>
 
         {% for job in site.data.experience %}
@@ -73,7 +73,7 @@
       <!-- begin Education -->
       <section class="content-section">
         <header class="section-header">
-          <h2>Образование</h2>
+          <h2>Развитие детей в научной, творческой, физкультурной деятельности</h2>
         </header>
 
         {% for education in site.data.education %}
@@ -101,7 +101,7 @@
       <!-- begin Projects -->
       <section class="content-section">
         <header class="section-header">
-          <h2>Проекты</h2>
+          <h2>Участие детей в конкурсах</h2>
         </header>
 
         {% for project in site.data.projects %}
@@ -122,7 +122,7 @@
       <section class="content-section">
 
         <header class="section-header">
-          <h2>Ключевые навыки</h2>
+          <h2>Участие детей в социальных акциях</h2>
         </header>
         {% for skill in site.data.skills %}
         <div class="resume-item">
@@ -140,7 +140,7 @@
       <section class="content-section">
 
         <header class="section-header">
-          <h2>Достижения, Награды</h2>
+          <h2>Личный вклад в повышение качества образования</h2>
         </header>
 
         {% for recognition in site.data.recognitions %}
@@ -160,7 +160,7 @@
       <section class="content-section">
 
         <header class="section-header">
-          <h2>Участие в организациях</h2>
+          <h2>Трансляция опыта</h2>
         </header>
 
         {% for association in site.data.associations %}
@@ -180,7 +180,7 @@
       <section class="content-section">
 
         <header class="section-header">
-          <h2>Хобби</h2>
+          <h2>Участие в методических объединениях</h2>
         </header>
 
         <div class="resume-item">
@@ -193,6 +193,26 @@
 
       </section>
       <!-- end Interests -->
+      {% endif %}
+
+      {% if site.resume_section_interests_extra %}
+      <!-- begin Interests_extra -->
+      <section class="content-section">
+
+        <header class="section-header">
+          <h2>Достижения профессиональные</h2>
+        </header>
+
+        <div class="resume-item">
+          <ul class="resume-item-list">
+            {% for interest_extra in site.data.interests_extra %}
+            <li>{{ interest_extra.description }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+
+      </section>
+      <!-- end Interests_extra -->
       {% endif %}
 
       {% if site.resume_section_links %}
