@@ -23,7 +23,7 @@ resume_contact_address:         "г. Екатеринбург, ул. Череп�
 resume_header_contact_info:     "г. Екатеринбург, ул. Черепанова, xxx • +7919362xxxx • me@alevtinakoneva.ru"
 display_header_contact_info:    "true"
 
-resume_header_intro: "<p>Здесь небольшая вводная по работе, сколько лет, ключевые достижения</p>"
+resume_header_intro: "<p>Портфолио доступно <a href="https://portfolio.alevtinakoneva.ru/">по ссылке</a></p>"
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
